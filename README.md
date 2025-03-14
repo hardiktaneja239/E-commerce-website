@@ -1,8 +1,7 @@
-# E-commerce-website
-It's a clothing website names as Amexin
+
 # E-commerce Website
 
-A fully responsive and interactive e-commerce website created using *HTML, **CSS, and **JavaScript*.
+A fully responsive and interactive e-commerce website created using *HTML, **CSS, and **JavaScript* Named as Amexin.
 
 ## Features
 - Home page with product listings
