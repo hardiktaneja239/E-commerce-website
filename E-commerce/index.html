@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMEXIN Store</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    
+    <div class="top-bar">
+        <h1 class="logo">AMEXIN </h1>
+        <div class="search-container">
+          <input type="text" class="search-bar" placeholder="Search product or brand">
+          <i class="fas fa-search search-icon"></i>
+        </div>
+        <div class="icons">
+          <a href="index.html"><i class="fa-solid fa-house"></i></a>
+          <a href="signup.html"><i class="fa-solid fa-user"></i></a>
+          <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="checkout.html"><button class="checkout">CHECKOUT</button></a>
+          <a href="contact.html"><button class="checkout">CONTACT US</button></a>
+        </div>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Timeless fashion for limitless souls.</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="trending">
+      <div class="trending-list">
+        <!-- product 0 -->
+        <div class="trends">
+          <a href="style.html"><img src="./img/old.jpg" alt="product 0"></a>
+          <div class="centered">Introducing <br> Style </div>
+        </div>
+      </div>
+    <section id="products">
+      <h2 id="">Featured Products</h2>
+      <div class="product-list">
+        <!-- Product 1 -->
+        <div class="product">
+          <a href="product1.html"></a>
+          <a href="product1.html"><img src="./img/product1.1.jpg" alt="Product 1"></a>
+          <a href="product1.html"><h3 class="white">Signature White</h3></a>
+          <p>$19.99</p>
+          <button onclick="addToCart('Product 1', 19.99)">Add to Cart</button>
+          <button onclick="buyNow('Product 1', 19.99)">Buy Now</button> 
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product">
+          <a href="product2.html"><img src="./img/10.jpg" alt="Product 2"></a>
+          <h3>Skies Blue</h3>
+          <p>$29.99</p>
+          <button onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
+          <button onclick="buyNow('Product 1', 19.99)">Buy Now</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+          <a href="product3.html"><img src="./img/3.jpg" alt="Product 3"></a>
+          <h3>Smoke Special</h3>
+          <p>$39.99</p>
+          <button onclick="addToCart('Product 3', 39.99)">Add to Cart</button>
+          <button onclick="buyNow('Product 1', 19.99)">Buy Now</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product">
+          <a href="product4.html"><img src="./img/4.jpg" alt="Product 4"></a>
+          <h3>Forest Special </h3>
+          <p>$49.99</p>
+          <button onclick="addToCart('Product 4', 49.99)">Add to Cart</button>
+          <button onclick="buyNow('Product 1', 19.99)">Buy Now</button>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product">
+          <a href="product4.html"><img src="./img/1.jpg" alt="Product 4"></a>
+          <h3>Textured White</h3>
+          <p>$49.99</p>
+          <button onclick="addToCart('Product 4', 49.99)">Add to Cart</button>
+          <button onclick="buyNow('Product 1', 19.99)">Buy Now</button>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product">
+          <a href="product4.html"><img src="./img/6.jpg" alt="Product 4"></a>
+          <h3>Beige On</h3>
+          <p>$49.99</p>
+          <button onclick="addToCart('Product 4', 49.99)">Add to Cart</button>
+          <button onclick="buyNow('Product 1', 19.99)">Buy Now</button>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product">
+          <a href="product4.html"><img src="./img/7.jpg" alt="Product 4"></a>
+          <h3>Textured Black</h3>
+          <p>$49.99</p>
+          <button onclick="addToCart('Product 4', 49.99)">Add to Cart</button>
+          <button onclick="buyNow('Product 1', 19.99)">Buy Now</button>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product">
+          <a href="product4.html"><img src="./img/9.jpg" alt="Product 4"></a>
+          <h3>Charcoal Black</h3>
+          <p>$49.99</p>
+          <button onclick="addToCart('Product 4', 49.99)">Add to Cart</button>
+          <button onclick="buyNow('Product 1', 19.99)">Buy Now</button>
+        </div>
+
+        
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 AMEXIN Store</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

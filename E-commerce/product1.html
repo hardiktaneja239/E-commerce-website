@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product 1 - AMEXIN</title>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    
+    <div class="top-bar">
+        <h1 class="logo">AMEXIN</h1>
+        <div class="search-container">
+        </div>
+        <div class="icons">
+          <a href="index.html"><i class="fa-solid fa-house"></i></a>
+          <a href="signup.html"><i class="fa-solid fa-user"></i></a>
+          <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="checkout.html"><button class="checkout">CHECKOUT</button></a>
+          <a href="contact.html"><button class="checkout">CONTACT US</button></a>
+        </div>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="product-container">
+        <!-- Image Slider -->
+        <div class="slider">
+            <img src="./img/product1.1.jpg" class="slide" id="slide1">
+            <img src="./img/product1.2.jpg" class="slide" id="slide2">
+            <img src="./img/prodcut1.3.jpg" class="slide" id="slide3">
+            <img src="./img/prodcut1.4.jpg" class="slide" id="slide4">
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+
+        <!-- Product Details -->
+        <div class="product-details">
+            <h2>Signature White</h2>
+            <p class="price"><strong>$19.99</strong></p>
+
+            <!-- Product Description -->
+            <div class="product-description">
+                <p>Step into effortless style with the AMEXIN Classic White T-Shirt. Made from premium 100% cotton, it offers unmatched comfort and breathability, perfect for everyday wear.</p>
+                <ul>
+                    <li>Material: Ultra-soft, 100% high-quality cotton</li>
+                    <li>Fit: Regular fit with a sleek, tailored finish</li>
+                    <li>Color: Crisp, timeless white</li>
+                    <li>Features: Ribbed crew neck, durable stitching, and pre-shrunk fabric</li>
+                    <li>Ideal for: Casual wear, layering, or pairing with streetwear essentials</li>
+                </ul>
+                </div>
+
+            <!-- Size Selection -->
+            <label>Select Size:</label>
+            <div class="size-options">
+                <div class="size-box" onclick="selectSize(this, 'S')">S</div>
+                <div class="size-box" onclick="selectSize(this, 'M')">M</div>
+                <div class="size-box" onclick="selectSize(this, 'L')">L</div>
+                <div class="size-box" onclick="selectSize(this, 'XL')">XL</div>
+            </div>
+
+            <!-- Buttons -->
+            <button onclick="addToCartWithSize('AMEXIN Classic White T-Shirt', 19.99)">Add to Cart</button>
+            <a href="checkout.html" class="buy-now">Buy Now</a>
+        </div>
+    </div>
+</main>
+
+<!-- Popup Message Container -->
+<div id="popup-message" class="popup-message"></div>
+
+<footer>
+    <p>&copy; 2023 AMEXIN Store</p>
+</footer>
+
+</body>
+</html>

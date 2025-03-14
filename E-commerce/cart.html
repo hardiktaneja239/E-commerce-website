@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - AMEXIN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <div class="top-bar">
+        <h1 class="logo">AMEXIN</h1>
+        <div class="search-container">
+        </div>
+        <div class="icons">
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
+            <a href="signup.html"><i class="fa-solid fa-user"></i></a>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="checkout.html"><button class="checkout">CHECKOUT</button></a>
+            <a href="contact.html"><button class="checkout">CONTACT US</button></a>
+        </div>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+        </ul>
+    </nav>
+    <h2>SHOPPING CART</h2>
+</header>
+
+<main>
+    <div class="cart-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Size</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Items will be dynamically added here -->
+            </tbody>
+        </table>
+        <div class="cart-summary">
+            <h3>Total: $<span id="cart-total">0.00</span></h3>
+            <a href="checkout.html" class="checkout-button">Proceed to Checkout</a>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2023 AMEXIN Store</p>
+</footer>
+
+</body>
+</html>

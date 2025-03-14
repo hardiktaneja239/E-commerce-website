@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - AMEXIN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <header>
+            <div class="top-bar">
+                <h1 class="logo">AMEXIN</h1>
+                <div class="icons">
+                    <a href="index.html"><i class="fa-solid fa-house"></i></a>
+                    <a href="signup.html"><i class="fa-solid fa-user"></i></a>
+                    <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="checkout.html"><button class="checkout">CHECKOUT</button></a>
+                    <a href="contact.html"><button class="checkout">CONTACT US</button></a>
+                </div>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                </ul>
+            </nav>
+            <h1>Sign Up for AMEXIN</h1>
+            <p>Join our community and stay updated on the latest collections, exclusive offers, and more!</p>
+            <br>       
+        </header>
+    <div class="signup-container">
+        <section class="signup-form">
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="terms" class="terms-label">
+                        <input type="checkbox" id="terms" name="terms" required> 
+                        I agree to the <a href="#">Terms & Conditions</a>
+                    </label>
+                </div>
+                
+
+                <button type="submit" class="btn-submit">Sign Up</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>Already have an account? <a href="login.html">Log in</a></p>
+        </footer>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 AMEXIN Store</p>
+    </footer>
+</body>
+</html>
